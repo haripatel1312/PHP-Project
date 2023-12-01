@@ -1,0 +1,4 @@
+<!-- Footer Section -->
+<footer>
+        <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+</footer>

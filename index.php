@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,31 +10,17 @@
 
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to Our Website</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="register.html">Register</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php
+    require("Global/header.php");
+    ?>
 
     <!-- Main Content Section -->
     <main>
         <section>
             <h2>Featured Content</h2>
-            <!-- Add your featured content here -->
         </section>
     </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2023 Your Website Name. All rights reserved.</p>
-    </footer>
-
+    <?php require("Global/footer.php"); ?>
 </body>
-
 </html>
